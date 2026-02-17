@@ -43,22 +43,4 @@ in mind.
 
 ## Architectural Diagram
 
-+--------+ +---------------+. +-------------+
-| API Server | <---- | Load Balancer | <---- | Client|
-+--------+. +---------------+ +-------------+
-|
-v
-+--------------+
-| Rate Limiter |
-| (TokenBucket)|
-+--------------+
-|
-v
-+--------------+
-| Redis Cache |
-+--------------+
-|
-v
-+--------------+
-| Backend APIs |
-+--------------+
+![alt text](Tocken-Bucket-Algorithm.png)
